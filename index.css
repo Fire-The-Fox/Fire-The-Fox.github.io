@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+* {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.firewm-bar {
+  background-color: rgba(0, 0, 0, 0.88);
+  width: 100vw;
+  height: 28px;
+  color: white;
+}
+.firewm-bar #menu {
+  padding-left: 15px;
+}
+.firewm-bar .tags {
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+@media (max-width: 1130px) {
+  .firewm-bar .tags {
+    text-align: left;
+    left: 100px;
+    font-size: 100%;
+  }
+}
+@media (min-width: 1130px) {
+  .firewm-bar .tags {
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+  }
+}
+.firewm-bar .tags span {
+  font-size: 120%;
+  margin-left: 1.5px;
+  margin-right: 1.5px;
+  padding-left: 5.5px;
+  padding-right: 5.5px;
+  margin-top: 2px;
+  padding-bottom: 3.7px;
+}
+.firewm-bar .tags span:nth-child(1) {
+  border-bottom: 3px solid #ffffff;
+}
+.firewm-bar .tags span:nth-child(2) {
+  border-bottom: 3px solid #ffffff;
+}
+.firewm-bar .tags span:nth-child(3) {
+  border-bottom: 3px solid #ffffff;
+}
+.firewm-bar .tags span:nth-child(7) {
+  border-bottom: 3px solid #ffffff;
+}
+.firewm-bar .tags span:hover {
+  background-color: rgba(38, 45, 55, 0.88);
+  margin-top: 0px;
+  padding-top: 2px;
+}
+.firewm-bar .tags span:focus {
+  background-color: rgba(38, 45, 55, 0.88);
+  margin-top: 0px;
+  padding-top: 2px;
+}
+.firewm-bar .status-bar {
+  float: right;
+}
+.firewm-bar .status-bar span {
+  margin-left: 5.5px;
+  margin-right: 5.5px;
+  margin-top: 2px;
+  padding-bottom: 3.7px;
+}
+.firewm-bar .status-bar span:nth-child(9) {
+  margin-right: 15px;
+}
+@media (max-width: 800px) {
+  .firewm-bar .status-bar {
+    visibility: hidden;
+  }
+}
+
+.terminal {
+  margin: auto;
+  width: calc(100vw - 100px);
+  height: calc(100vh - 125px);
+  background: rgb(38, 45, 55);
+  padding: 15px;
+  margin-top: 28px;
+  z-index: 10;
+  color: white;
+  visibility: hidden;
+}/*# sourceMappingURL=index.css.map */

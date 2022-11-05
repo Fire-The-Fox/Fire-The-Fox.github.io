@@ -1,6 +1,6 @@
 body {
-	color: #c5c8c6;
-	background-color: #1d1f21;
+	color: #dee3e0;
+	background-color: #101112;
 	font-family: monospace;
 	display: grid;
 	align-items: center;
@@ -20,7 +20,7 @@ nav {
 }
 
 main {
-	background-color: #282a2e;
+	background-color: #252629;
 	overflow-wrap: break-word;
 	padding: 16px;
 }
@@ -31,7 +31,7 @@ table {
 }
 
 td, th {
-	border: 1px solid #373b41;
+	border: 1px solid #272a2e;
 	white-space: pre-line;
 	text-align: left;
 	padding: 8px;
@@ -42,7 +42,7 @@ th {
 }
 
 a {
-	color: #81a2be;
+	color: #288ce0;
 	text-decoration: none;
 }
 
